@@ -10,7 +10,7 @@ const Navbar = () => {
     const [showAll, setShowAll] = useState(false);
 
         const navItems = [
-        { name: "Home", path: "/landing_page" },
+        { name: "Home", path: "/" },
         { name: "About", path: "/about_page" },
         { name: "Menu", path: "/menu_page" },
         { name: "Pages", path: "/pages" },
